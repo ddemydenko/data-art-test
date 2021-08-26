@@ -1,5 +1,5 @@
 const nxtPrmFib = require('../prime-fibonacci-number-orig');
-const { nextPrimeFibonacci, testables } = require('../prime-fibonacci-number-optimize');
+const nextPrimeFibonacci = require('../prime-fibonacci-number-optimize');
 
 const TimeExecution = require('../time-execution.js');
 

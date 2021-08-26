@@ -32,10 +32,6 @@ function nextPrimeFibonacci(number) {
   return fib;
 }
 
-const testables = {
-  fibonacci,
-  isPrime
-};
 
-module.exports = {nextPrimeFibonacci, testables};
+module.exports = nextPrimeFibonacci;
 
